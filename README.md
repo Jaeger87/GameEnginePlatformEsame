@@ -10,7 +10,7 @@ Prototipo di Platform per l'esame di GameEngine del [Master di computer game dev
 
 ## Key feature
 
-Porta il micio 
+Porta il micio dalla torcia rossa a quella verde evitando i nemici e di schiantarti a terra (No, non è vero che i gatti se cadono dal quinto piano sopravvivono). Se premi Q muori (anche nella vita reale? Scoprilo premendo Q!!!).
 
 Elemento | Descrizione
 ------------ | -------------
