@@ -7,12 +7,19 @@
 		{
 			"Name": "MyUnrealPlatformXDXD",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
 		{
 			"Name": "Paper2D",
+			"Enabled": true
+		},
+		{
+			"Name": "FMODStudio",
 			"Enabled": true
 		}
 	]
