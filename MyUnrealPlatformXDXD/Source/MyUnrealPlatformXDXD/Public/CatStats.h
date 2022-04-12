@@ -15,6 +15,7 @@ class MYUNREALPLATFORMXDXD_API UCatStats : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UCatStats();
+	void UpdateStat(const FString& StatName, float StatValue);
 
 protected:
 	// Called when the game starts
