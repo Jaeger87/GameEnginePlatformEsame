@@ -6,6 +6,7 @@
 
 #include "PlatformLogContext.h"
 #include "PlatformItemDataAsset.h"
+#include "PlatformItemStatModifier.h"
 #include "PlatformItem.h"
 
 // Sets default values for this component's properties
@@ -56,6 +57,30 @@ void UCatInventory::AddItem(APlatformItem* i_Item)
 	{
 		UE_LOG(LogPlatform, Warning, TEXT("Invalid Itam DataAsset"));
 		return;
+	}
+
+	UE_LOG(LogPlatform, Log, TEXT("Added Item %s"), *DataAsset->ItemName.ToString());
+	
+	UDataTable* Modifiers = DataAsset->StatModifiers;
+
+	if (Modifiers == nullptr)
+	{
+		UE_LOG(LogPlatform, Warning, TEXT("Invalid Item DataTable"));
+		return;
+	}
+
+	static const FString ContextString(TEXT("UArenaCharacterInventory::AddItem"));
+
+	TArray<FPlatformItemStatModifier*> Rows;
+	
+	Modifiers->GetAllRows(ContextString, Rows);
+
+	int NumRows = Rows.Num();
+
+	for (size_t RowIndex = 0; RowIndex < NumRows; ++RowIndex)
+	{
+		FPlatformItemStatModifier* Row = Rows[RowIndex];
+		CharacterStats->UpdateStat(Row->StatName, Row->Value);
 	}
 }
 

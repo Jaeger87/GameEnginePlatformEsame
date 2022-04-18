@@ -7,6 +7,7 @@
 #include "CatCharacter.generated.h"
 
 class UCatStats;
+class UCatInventory;
 
 /**
  * 
@@ -19,8 +20,12 @@ class MYUNREALPLATFORMXDXD_API ACatCharacter : public APaperCharacter
 
 	public:
 		ACatCharacter();
+
+		virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
 	
 	protected:
 		UPROPERTY(Category = Character, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = true))
 		UCatStats* catStats;
+		UPROPERTY(Category = Character, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+		UCatInventory* InventoryComponent;
 };
