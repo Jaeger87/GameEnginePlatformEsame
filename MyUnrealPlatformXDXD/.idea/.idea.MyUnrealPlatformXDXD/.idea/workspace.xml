@@ -7,9 +7,10 @@
   <component name="ChangeListManager">
     <list default="true" id="99651088-86b2-4e9b-aab8-70e1664fa877" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnrealPlatformXDXD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnrealPlatformXDXD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/CatCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/CatCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/CatInventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/CatInventory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/CatCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/CatCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/CatStats.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/CatStats.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +258,7 @@
       <workItem from="1649552530686" duration="2700000" />
       <workItem from="1649800383888" duration="5362000" />
       <workItem from="1650241098904" duration="1284000" />
-      <workItem from="1650297685956" duration="12674000" />
+      <workItem from="1650297685956" duration="15462000" />
     </task>
     <servers />
   </component>
