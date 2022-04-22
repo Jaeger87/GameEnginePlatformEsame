@@ -20,11 +20,14 @@ public:
 	UFUNCTION(BlueprintCallable)
 	float GetStat(const FName StatFName) const;
 	
+	UFUNCTION(BlueprintCallable)
+	void ConsumeStat(const FName StatFName, float consumeValue);
+	
 protected:
 	// Called when the game starts
-	UPROPERTY(EditAnywhere, Category="Stats", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
-	float Speed = 0.0f;
-	UPROPERTY(EditAnywhere, Category = "Stats", meta = (ClampMin = "0.0", ClampMax = "15.0", UIMin = "0.0", UIMax = "15.0"))
+	UPROPERTY(EditAnywhere, Category="Stats", meta = (ClampMin = "1.0", ClampMax = "5.0", UIMin = "0.0", UIMax = "1.0"))
+	float Speed = 1.0f;
+	UPROPERTY(VisibleAnywhere)
 	float InvincibleSeconds = 0.0f;
 	UPROPERTY(EditAnywhere, Category = "Stats", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
 	float AirFriction = 0.5f;

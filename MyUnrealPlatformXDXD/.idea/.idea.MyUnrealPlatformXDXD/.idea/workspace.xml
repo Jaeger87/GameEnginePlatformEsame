@@ -7,11 +7,15 @@
   <component name="ChangeListManager">
     <list default="true" id="99651088-86b2-4e9b-aab8-70e1664fa877" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnrealPlatformXDXD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnrealPlatformXDXD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/2DSideScrollerBP/Blueprints/2DEnemyBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/2DSideScrollerBP/Blueprints/2DEnemyBP.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ReflectionUtils/Source/ReflectionUtils/Private/ReflectionUtilsFunctionLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ReflectionUtils/Source/ReflectionUtils/Private/ReflectionUtilsFunctionLibrary.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ReflectionUtils/Source/ReflectionUtils/Public/ReflectionUtilsFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ReflectionUtils/Source/ReflectionUtils/Public/ReflectionUtilsFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ItemsDataTables/FeatherRing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ItemsDataTables/FeatherRing.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ItemsDataTables/FeatherRing.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ItemsDataTables/FeatherRing.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ItemsDataTables/LightBoots.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ItemsDataTables/LightBoots.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ItemsDataTables/LightBoots.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ItemsDataTables/LightBoots.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ItemsDataTables/MagicCheese.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ItemsDataTables/MagicCheese.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ItemsDataTables/TheMask.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ItemsDataTables/TheMask.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ItemsDataTables/TheMask.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ItemsDataTables/TheMask.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/CatStats.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/CatStats.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/CatStats.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/CatStats.h" afterDir="false" />
     </list>
@@ -43,6 +47,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -276,7 +282,7 @@
       <workItem from="1650241098904" duration="1284000" />
       <workItem from="1650297685956" duration="15462000" />
       <workItem from="1650576422969" duration="2083000" />
-      <workItem from="1650641351125" duration="8454000" />
+      <workItem from="1650641351125" duration="12087000" />
     </task>
     <servers />
   </component>

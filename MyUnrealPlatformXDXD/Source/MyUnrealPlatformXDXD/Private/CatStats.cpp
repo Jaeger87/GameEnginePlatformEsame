@@ -52,3 +52,18 @@ float UCatStats::GetStat(const FName StatFName) const
 	return FLT_MIN;
 }
 
+void UCatStats::ConsumeStat(const FName StatFName, float consumeValue)
+{
+	FProperty* StatProperty = UReflectionUtilsFunctionLibrary::RetrieveProperty(this, StatFName);
+	if (StatProperty != nullptr)
+	{
+		FFloatProperty* FloatProperty = CastField<FFloatProperty>(StatProperty);
+		if (FloatProperty != nullptr)
+		{
+			const float currentValue = FloatProperty->GetPropertyValue_InContainer(this);
+			const float newValue = consumeValue > currentValue ? 0 : currentValue - consumeValue;
+			FloatProperty->SetPropertyValue_InContainer(this, newValue);
+		}
+	}
+}
+
