@@ -25,11 +25,11 @@ public:
 	
 protected:
 	// Called when the game starts
-	UPROPERTY(EditAnywhere, Category="Stats", meta = (ClampMin = "1.0", ClampMax = "5.0", UIMin = "0.0", UIMax = "1.0"))
+	UPROPERTY(EditAnywhere, Category="Stats", meta = (ClampMin = "1.0", ClampMax = "3.0", UIMin = "0.0", UIMax = "3.0"))
 	float Speed = 1.0f;
 	UPROPERTY(VisibleAnywhere)
 	float InvincibleSeconds = 0.0f;
 	UPROPERTY(EditAnywhere, Category = "Stats", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
-	float AirFriction = 0.5f;
+	float AirFriction = 1.0f;
 		
 };
