@@ -17,6 +17,9 @@ public:
 	UCatStats();
 	void UpdateStat(const FString& StatName, float StatValue);
 
+	UFUNCTION(BlueprintCallable)
+	float GetStat(const FName StatFName) const;
+	
 protected:
 	// Called when the game starts
 	UPROPERTY(EditAnywhere, Category="Stats", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))

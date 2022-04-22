@@ -28,8 +28,7 @@ void UCatStats::UpdateStat(const FString& StatName, float StatValue)
 		FFloatProperty* FloatProperty = CastField<FFloatProperty>(StatProperty);
 		if (FloatProperty != nullptr)
 		{
-			float Value = FMath::Clamp(StatValue, 0.f, 1.f);
-			FloatProperty->SetPropertyValue_InContainer(OutObject, Value);
+			FloatProperty->SetPropertyValue_InContainer(OutObject, StatValue);
 
 			if (GEngine != nullptr)
 			{
@@ -37,5 +36,19 @@ void UCatStats::UpdateStat(const FString& StatName, float StatValue)
 			}
 		}
 	}
+}
+
+float UCatStats::GetStat(const FName StatFName) const
+{
+	FProperty* StatProperty = UReflectionUtilsFunctionLibrary::RetrieveProperty(this, StatFName);
+	if (StatProperty != nullptr)
+	{
+		FFloatProperty* FloatProperty = CastField<FFloatProperty>(StatProperty);
+		if (FloatProperty != nullptr)
+		{
+			return FloatProperty->GetPropertyValue_InContainer(this);
+		}
+	}
+	return FLT_MIN;
 }
 

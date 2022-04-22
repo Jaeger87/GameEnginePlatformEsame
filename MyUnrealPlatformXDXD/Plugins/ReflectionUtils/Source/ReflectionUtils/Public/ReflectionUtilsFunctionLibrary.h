@@ -24,4 +24,7 @@ class REFLECTIONUTILS_API UReflectionUtilsFunctionLibrary : public UBlueprintFun
 	*				This.HP (InObject: UArenaCharacterStats)
 	*/
 	static FProperty* RetrieveProperty(UObject* InObject, const FString& InPath, void*& OutTarget);
+
+
+	static FProperty* RetrieveProperty(const UObject* InObject, const FName InPropertyFname);
 };

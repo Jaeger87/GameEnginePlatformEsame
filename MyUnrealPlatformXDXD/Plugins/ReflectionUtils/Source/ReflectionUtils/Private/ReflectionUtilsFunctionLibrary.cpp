@@ -67,3 +67,19 @@ FProperty* UReflectionUtilsFunctionLibrary::RetrieveProperty(UObject* InObject, 
 
 	return OutProperty;
 }
+
+FProperty* UReflectionUtilsFunctionLibrary::RetrieveProperty(const UObject* InObject, const FName InPropertyFname)
+{
+	if (InObject == nullptr)
+	{
+		return nullptr;
+	}
+
+	const UClass* TargetClass = InObject->GetClass();
+	FProperty* OutProperty;
+
+	OutProperty = TargetClass->FindPropertyByName(InPropertyFname);
+	
+	return OutProperty;
+	
+}

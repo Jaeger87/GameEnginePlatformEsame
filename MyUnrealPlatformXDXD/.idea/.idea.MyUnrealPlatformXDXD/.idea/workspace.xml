@@ -7,12 +7,12 @@
   <component name="ChangeListManager">
     <list default="true" id="99651088-86b2-4e9b-aab8-70e1664fa877" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnrealPlatformXDXD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnrealPlatformXDXD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/2DSideScrollerBP/Blueprints/2DEnemyBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/2DSideScrollerBP/Blueprints/2DEnemyBP.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/SpeedUPItem.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/SpeedUpDataAsset.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/SpeedUpModifier.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ItemsDataTables/LightBoost.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ItemsDataTables/LightBoost.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ReflectionUtils/Source/ReflectionUtils/Private/ReflectionUtilsFunctionLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ReflectionUtils/Source/ReflectionUtils/Private/ReflectionUtilsFunctionLibrary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ReflectionUtils/Source/ReflectionUtils/Public/ReflectionUtilsFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ReflectionUtils/Source/ReflectionUtils/Public/ReflectionUtilsFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/CatStats.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/CatStats.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/CatStats.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/CatStats.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/PlatformItem.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/CatCharacter.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/PlatformLogContext.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/CatCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/CatStats.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/PlatformItemStatModifier.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/CatStats.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/CatInventory.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/PlatformItemDataAsset.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Private/PlatformItemDataAsset.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/MyUnrealPlatformXDXD/Public/CatInventory.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27aJAVEBtgTbGOmzSbcz39wC8pI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -263,6 +276,7 @@
       <workItem from="1650241098904" duration="1284000" />
       <workItem from="1650297685956" duration="15462000" />
       <workItem from="1650576422969" duration="2083000" />
+      <workItem from="1650641351125" duration="8454000" />
     </task>
     <servers />
   </component>
