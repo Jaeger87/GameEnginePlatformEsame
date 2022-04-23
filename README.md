@@ -21,23 +21,26 @@ Elemento | Descrizione
 <img src="Assets_readme_git/Magic_Tile.png" alt="Magic" width="80"/>| Tile che si muove da un punto all'altro nel livello
 <img src="Assets_readme_git/torch.gif" alt="Magic" width="40" class="center"/>| Punto di partenza e di respawn del livello
 <img src="Assets_readme_git/green_torch.gif" alt="Magic" width="40" class="center"/>| Punto di arrivo
-
-
+<img src="Assets_readme_git/FeetOutline 12.png" alt="grass" width="64" class="center"/>| Scarponi leggeri, se il giocatore li raccoglie diventa più veloce
+<img src="Assets_readme_git/MiscellaneousOutline 36.png" alt="Magic" width="64" class="center"/>| Formaggio magico, rende invincibili per 5 secondi, quando il giocatore è invincibile non può morire in alcun modo e uccide i nemici toccandoli (simile a Super Mario con la stella).
+<img src="Assets_readme_git/RingOutline 13.png" alt="Magic" width="64" class="center"/>| Anello piuma, Se raccolto aumenta l'attrito dell'aria durante le cadute del giocatore e lo fa sempre cadere con leggere, come se avesse un paracadute.
+<img src="Assets_readme_git/HelmetOutline 2.png" alt="Magic" width="64"/>| Aumenta velocità e attrito dell'aria, inserita solo a scopo dimostrativo.
 # Micio stats
 
 Nome | Descrizione | Valore Default
 ------------ | ------------- | -------------
 Speed | Moltiplicatore in grado di alterare la velocità del micio, maggiore di 1 rende il micio più veloce, minore di 1 lo rende più lento | 1
 InvincibleSeconds | Durata residua in secondi del potere dell'invincibilità, questo valore decresce col tempo fino ad arrivare a 0. | 0
-AirFriction | https://9e0.itch.io/cute-legends-cat-heroes |
+AirFriction | https://9e0.itch.io/cute-legends-cat-heroes | 1
 
 
 
-# Notion e Unreal <3
+# Notion e Unreal :heartpulse:
+
+
 
 
 # Assets source
-
 
 Asset | Source
 ------------ | -------------
