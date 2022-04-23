@@ -60,6 +60,8 @@ Tramite lo script Python [NotiontoUnreal.py](https://github.com/Jaeger87/GameEng
 https://user-images.githubusercontent.com/8321575/164917049-c5b84396-8949-466a-8221-521a784d35e6.mp4
 
 
+In caso di aggiunta, rimozione o cambia nome di una stat, **non ci sarà bisogno** di toccare NotiontoUnreal.py perché questo si limita soltanto a leggere quello che trova nella tabella e riportarlo nei CSV.
+
 # Assets source
 
 Asset | Source
