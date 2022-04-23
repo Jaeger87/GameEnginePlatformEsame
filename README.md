@@ -41,12 +41,21 @@ AirFriction | Un moltiplicatore che se abbassato rende le caduta dopo un salto p
 
 # Notion e Unreal :heartpulse:
 
+
+
 I 4 Item del gioco interagiscono con 3 diversi tipi di statistica del personaggio principale. Su [Notion](https://www.notion.so/) è stato creato un [DataBase delle item](https://decisive-nutmeg-629.notion.site/Design-stuff-836432e292e249c4801db0d20134afc3) (a cui chiunque può accedere in lettura) dove si può trovare:
 
 * Nome dell'Item
 * Descrizione ad alto livello di cosa fa l'Item
 * Asset grafico che rappresenta l'item
-* 
+* Valori delle statistiche alterate dall'item.
+
+
+<p align="center">
+<img src="Assets_readme_git/PaginaNotion.png"  class="center">
+</p> <p align="left">
+
+Tramite lo script Python [NotiontoUnreal.py](https://github.com/Jaeger87/GameEnginePlatformEsame/blob/HLP/NotionToUnreal.py) è possibile in automatico importare i valori delle stats modificate da ogni item. Lo script legge i valori nel DB Notion e crea i CSV che Unreal legge per creare le DataTable relative. Fatta questa opzione bisognerà fare un refresh delle DataTable da Unreal. 
 
 https://user-images.githubusercontent.com/8321575/164917049-c5b84396-8949-466a-8221-521a784d35e6.mp4
 
