@@ -48,7 +48,9 @@ I 4 Item del gioco interagiscono con 3 diversi tipi di statistica del personaggi
 * Asset grafico che rappresenta l'item
 * 
 
-![Notion Unreal](Assets_readme_git/notionUnreal.mp4)
+https://user-images.githubusercontent.com/8321575/164917049-c5b84396-8949-466a-8221-521a784d35e6.mp4
+
+
 # Assets source
 
 Asset | Source
